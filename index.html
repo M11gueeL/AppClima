@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset=utf-8>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Buscador del clima</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="weather-content">
+		<h1>Buscador del clima</h1>
+		<div class="result">
+			<p>Agregue una ciudad y un país</p>
+
+		</div>
+		<form action="" method="POST" class="get-weather">
+
+            <input type="text" name="city" id="city" placeholder="Escriba la ciudad...">
+
+            <select name="" id="country">
+                <option disabled selected value="">Seleccione el país</option>
+                <option value="VE">Venezuela</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+            </select>
+
+			<input type="submit" name="" id="btn" value="Obtener temperatura">
+		</form>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #AED0F1;
+}
+
+.weather-content {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    background-color: #3A5FA2;
+    width: 100%;
+    max-width: 500px;
+}
+
+.weather-content h1 {
+    color: #F1F1F1;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.get-weather input,
+.get-weather select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.get-weather input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.get-weather input[type="submit"]:hover {
+    background-color: #0C498A;
+}
+
+.result {
+    margin-top: 20px;
+    color: #F1F1F1;
+}
+.result h2 {
+    font-size: 40px;
+}
+
+.result h5 {
+    font-size: 25px;
+}
+
+.result div {
+    text-align: center;
+
+}
+
+.alert-message {
+    margin: 24px 0 0;
+    color: red !important;
+}
